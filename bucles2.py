@@ -9,5 +9,15 @@ def run():
         contador = contador + 1
         potencia_2 = 2**contador
 
+def run2():
+    limit = 10
+
+    contador = 1
+    potencia = 2*contador
+    while potencia < limit:
+        print("test")
+    contador += 1
+    potencia = 2*contador
+
 if __name__ == '__main__':
     run()
